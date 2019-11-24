@@ -1,3 +1,6 @@
+# TeleInviter by Ziziworks
+# https://github.com/ziziwho/teleinviter
+
 import os
 import sys
 import csv
@@ -92,10 +95,15 @@ api_hash = str(config['SETTING']['api_hash']) # Api Hash for Telegram API
 #CONVERT CONFIGURATION END!	__EDIT HERE__		__EDIT HERE__		__EDIT HERE__		__EDIT HERE__		__EDIT HERE__		__EDIT HERE__	
 
 # WELCOME BLOCK
-print(Fore.MAGENTA + '		__      _____ _    ___ ___  __  __ ___ ')
-print(Fore.MAGENTA + '		\ \    / / __| |  / __/ _ \|  \/  | __|')
-print(Fore.MAGENTA + '		 \ \/\/ /| _|| |_| (_| (_) | |\/| | _| ')
-print(Fore.MAGENTA + '		  \_/\_/ |___|____\___\___/|_|  |_|___|\n' + Fore.RESET)
+                                                                                          
+print(Fore.MAGENTA + '		888888888888 88           88                                           88                 ')
+print(Fore.MAGENTA + '		         ,88 ""           ""                                           88                 ')
+print(Fore.MAGENTA + '		       ,88"                                                            88                 ')
+print(Fore.MAGENTA + '		     ,88"    88 888888888 88 8b      db      d8  ,adPPYba,  8b,dPPYba, 88   ,d8  ,adPPYba,')
+print(Fore.MAGENTA + '		   ,88"      88      a8P" 88 `8b    d88b    d8` a8"     "8a 88P`   "Y8 88 ,a8"   I8[    ""')
+print(Fore.MAGENTA + '		 ,88"        88   ,d8P`   88  `8b  d8``8b  d8`  8b       d8 88         8888[      `"Y8ba, ')
+print(Fore.MAGENTA + '		88"          88 ,d8"      88   `8bd8`  `8bd8`   "8a,   ,a8" 88         88`"Yba,  aa    ]8I')
+print(Fore.MAGENTA + '		888888888888 88 888888888 88     YP      YP      `"YbbdP"`  88         88   `Y8a `"YbbdP"\n')
 print(Fore.CYAN + '		       -   TeleInviter Script   -    ' + Fore.RESET)
 #if len(sys.argv) > 3:
 #print(Fore.CYAN + '		         -    ' + Fore.BLUE + 'Telegram' Fore.WHITE + '\\' + Fore.RED + 'Jom' + Fore.YELLOW + 'Donator' + Fore.CYAN + '    -    \n' + Fore.RESET)

@@ -30,7 +30,7 @@ def write_file():
     config.write(open('config.ini', 'w'))
 	
 if not os.path.exists('config.ini'):
-    config['SETTING'] = {'invite_interval': '120', 'pax_size': '50', 'pax_rest': '1080', 'flood_rest': '1800', 'target_group': 'jombuymuslimfirst', 'api_id': '1009439', 'api_hash': 'f2e00541628bff3be9e9e99c58fc1feb', '#____________________________TeleInviter________________________________': '', '#Invite a new member every 120 seconds.': '', '#When invited 50 new member, rest for 1080 seconds.': '', '#When got flooding warning from Telegram, rest for 1800 seconds.': '', '#When got flooding warning from Telegram, rest for 1800 seconds.': '', '#Invite group username without @': '',}
+    config['SETTING'] = {'invite_interval': '35', 'pax_size': '50', 'pax_rest': '300', 'flood_rest': '1200', 'target_group': 'ziziworks', 'api_id': '1102903', 'api_hash': '344d3fe528197386d5ec96de03ef8e56',}
 
     write_file()
 else:

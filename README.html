@@ -1,0 +1,219 @@
+<!DOCTYPE html []>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>README.md</title>
+    <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li {
+    page-break-inside: avoid; 
+}
+
+        </style>
+  </head>
+  <body>
+    <h1 id="teleinviter-by-ziziworks">TeleInviter by <a href="https://www.youtube.com/channel/UCW36UNroi3B4Ix9ln1e6rUQ?sub_confirmation=1">Ziziworks</a></h1>
+    <p>
+      <a href="https://www.youtube.com/channel/UCW36UNroi3B4Ix9ln1e6rUQ?sub_confirmation=1">Youtube</a> |
+<a href="https://www.instagram.com/ziziworks/">Instagram</a> |
+<a href="https://www.facebook.com/ziziworks/">Facebook</a> |
+<a href="https://t.me/ziziworks">Telegram Channel</a> |
+<a href="https://t.me/ziziworksgroup">Telegram Group</a> |
+<a href="https://twitter.com/ziziworks_MY">Twitter</a></p>
+    <blockquote>
+      <p>A script written on Python for automatic telegram inviting.<br />
+It can be used for inviting into group only, not working for channel.<br />
+This script can be run on Window's command prompt
+and Termux terminal on Android.</p>
+    </blockquote>
+    <p>
+      <img src="Preview.png" alt="preview" />
+    </p>
+    <h3 id="features">Features:</h3>
+    <ul class="contains-task-list">
+      <li class="task-list-item">
+        <input disabled="disabled" type="checkbox" checked="checked" /> Automatically invite username by username</li>
+      <li class="task-list-item">
+        <input disabled="disabled" type="checkbox" checked="checked" /> Username file can be either <strong>.txt</strong> or <strong>.csv</strong></li>
+      <li class="task-list-item">
+        <input disabled="disabled" type="checkbox" checked="checked" /> Save active sessions</li>
+      <li class="task-list-item">
+        <input disabled="disabled" type="checkbox" checked="checked" /> Allow 2FA (Two-Step Verification) login</li>
+      <li class="task-list-item">
+        <input disabled="disabled" type="checkbox" checked="checked" /> Has <strong>config.ini</strong> for setting configurations</li>
+      <li class="task-list-item">
+        <input disabled="disabled" type="checkbox" checked="checked" /> Can start script by double-clicking <strong>start.py</strong></li>
+      <li class="task-list-item">
+        <input disabled="disabled" type="checkbox" checked="checked" /> Can start script using arguments ( <em>python main.py phone_number optional_notes</em> )</li>
+      <li class="task-list-item">
+        <input disabled="disabled" type="checkbox" /> Eliminate flood errors</li>
+    </ul>
+    <h2 id="download">Download</h2>
+    <p>Script is where the magic begins. Go ahead and download it now.<br />
+If you don't download the script yet get it now by clicking <a href="https://github.com/ziziwho/teleinviter/releases">/releases</a></p>
+    <h1 id="intallation">Intallation</h1>
+    <h2 id="install-python-on-windows">Install Python on Windows</h2>
+    <ul>
+      <li>Download <a href="https://www.python.org/downloads/">Python</a> for Windows</li>
+      <li>When you're installing python made sure you checked "Add Python 3.7 to PATH"</li>
+      <li>
+        <code>../your_path/</code> mean path/directory/location to your TeleInviter file.</li>
+      <li>Open Windows's command prompt and enter command below:<br /><code>cd ../your_path/</code><br /><code>pip install -r requirements.txt</code></li>
+    </ul>
+    <h4 id="example">Example:</h4>
+    <p>
+      <code>cd D:\teleinviter</code>
+      <br />
+      <code>pip install -r requirements.txt</code>
+    </p>
+    <h2 id="install-python-on-termux">Install Python on Termux</h2>
+    <ul>
+      <li>Download <a href="https://play.google.com/store/apps/details?id=com.termux&amp;hl=en">Termux</a> from Playstore</li>
+      <li>
+        <code>../your_path/</code> mean path/directory/location to your TeleInviter file.</li>
+      <li>Open termux enter commands below:<br /><code>pkg update &amp;&amp; pkg upgrade</code><br /><code>pkg install python git</code><br /><code>cd ../your_path/</code><br /><code>pip install -r requirements.txt</code></li>
+    </ul>
+    <h4 id="example-1">Example:</h4>
+    <p>
+      <code>pkg update &amp;&amp; pkg upgrade</code>
+      <br />
+      <code>pkg install python git</code>
+      <br />
+      <code>cd /storage/emulated/0/teleinviter</code>
+      <br />
+      <code>pip install -r requirements.txt</code>
+    </p>
+    <h2 id="configuration">Configuration</h2>
+    <h3 id="config.ini">Config.ini</h3>
+    <ul>
+      <li>Config.ini consist setting for the script.</li>
+      <li>You can edit it using any text editor such as Notepad</li>
+      <li>You can obtain your own API ID at <a href="https://core.telegram.org/api/obtaining_api_id">https://core.telegram.org/api/obtaining_api_id</a></li>
+    </ul>
+    <blockquote>
+      <p>[SETTING]<br />
+invite_interval = 35<br />
+pax_size = 50<br />
+pax_rest = 300<br />
+flood_rest = 1200<br />
+target_group = ziziworks<br />
+api_id = 1102903<br />
+api_hash = 344d3fe528197386d5ec96de03ef8e56</p>
+    </blockquote>
+    <table>
+      <thead>
+        <tr>
+          <th>Object</th>
+          <th>Variables</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>[SETTING]</td>
+          <td>❌</td>
+          <td>🚫 Don't change this 🚫</td>
+        </tr>
+        <tr>
+          <td>invite_interval</td>
+          <td>35</td>
+          <td>Invite a username every 35 seconds</td>
+        </tr>
+        <tr>
+          <td>pax_size</td>
+          <td>50</td>
+          <td>Invite 50 username before a rest</td>
+        </tr>
+        <tr>
+          <td>pax_rest</td>
+          <td>300</td>
+          <td>Rest for 300 seconds, Set 0 for no rest</td>
+        </tr>
+        <tr>
+          <td>flood_rest</td>
+          <td>1200</td>
+          <td>If one's account got flood error from telegram. Rest for 1200 seconds</td>
+        </tr>
+        <tr>
+          <td>target_group</td>
+          <td>ziziworks</td>
+          <td>Invite to what group? Specify the group ID</td>
+        </tr>
+        <tr>
+          <td>api_id</td>
+          <td>1102903</td>
+          <td>Telegram's application API ID</td>
+        </tr>
+        <tr>
+          <td>api_hash</td>
+          <td>344d3fe528197386d5ec96de03ef8e56</td>
+          <td>Telegram's application API Hash</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="username-file">Username file</h3>
+    <ul>
+      <li>Username file consist a list of username used for inviting</li>
+      <li>Username file can be either <strong>.txt</strong> or <strong>.csv</strong></li>
+      <li>Script read username, line by line</li>
+    </ul>
+    <h4 id="example-2">Example:</h4>
+    <pre>
+      <code>Username1
+Username2
+Username3
+...
+</code>
+    </pre>
+    <h1 id="start-teleinviter">Start TeleInviter</h1>
+    <h4 id="usage">Usage:</h4>
+    <blockquote>
+      <p>python main.py phone_number [optional for notes]</p>
+    </blockquote>
+    <p>❗ Input number in international format (example: +1234567890)</p>
+    <pre>
+      <code>python D:\teleinviter\main.py +639162995600
+</code>
+    </pre>
+    <p>⚠️ Make sure you enter your phone number which linked with telegram. Do not enter the number listed in the example.</p>
+    <ul>
+      <li>You can just double click on <strong>start.py</strong> and it will ask any requirements later such as phone number and username_file.</li>
+      <li>You can also run it by specifying required arguments as example below.</li>
+      <li>Input number in international format (example: +60123456789)</li>
+      <li>Username file can be either <strong>.txt</strong> or <strong>.csv</strong></li>
+    </ul>
+    <p>
+      <code>../your_path/</code> mean path/directory/location to your TeleInviter file.</p>
+    <blockquote>
+      <h2 id="windows">Windows</h2>
+    </blockquote>
+    <ul>
+      <li>Open cmd (command prompt)</li>
+      <li>Enter following command :
+<code>python ../your_path/start.py +123456789 username.txt</code></li>
+    </ul>
+    <h4 id="example-3">Example:</h4>
+    <p>
+      <code>python D:\teleinviter\start.py +123456789 username.txt</code>
+    </p>
+    <blockquote>
+      <h2 id="termux">Termux</h2>
+    </blockquote>
+    <ul>
+      <li>Enter following command :
+<code>cd ../your_path/</code><br /><code>python ../your_path/start.py +123456789 username.txt</code></li>
+    </ul>
+    <h4 id="example-4">Example:</h4>
+    <p>
+      <code>python D:\teleinviter\start.py +123456789 username.txt</code>
+    </p>
+    <h2 id="bugs-and-issues">Bugs and Issues</h2>
+    <p>Have a bug or an issue with this script? <a href="https://github.com/ziziwho/teleinviter/issues/new">Open a new issue</a> here on GitHub or leave a message on my <a href="http://t.me/ziziwho">telegram</a>.</p>
+    <hr />
+    <blockquote>
+      <p>** ⚠️ Disclaimer**<a name="disclaimer" />: Please be note that this is a learning project for me. I am by no means responsible for any usage of this script. Use on your own behalf. I'm also not responsible if your accounts get any punishment due to extensive use of this script.</p>
+    </blockquote>
+  </body>
+</html>

@@ -18,8 +18,8 @@ and Termux terminal on Android.
 - [x] Save active sessions
 - [x] Allow 2FA (Two-Step Verification) login
 - [X] Has **config.ini** for setting configurations
-- [X] Can start script by double-clicking **start.py**
-- [X] Can start script using arguments ( _python main.py phone_number optional_notes_ )
+- [X] Can start script by double-clicking **teleinv.py**
+- [X] Can start script using arguments ( _python teleinv.py phone_number optional_notes_ )
 - [ ] Eliminate flood errors
 ## Download
 Script is where the magic begins. Go ahead and download it now.    
@@ -88,16 +88,16 @@ Username3
 ```
 # Start TeleInviter
 #### Usage: 
-> python main.py phone_number [optional for notes]    
+> python teleinv.py phone_number [optional for notes]    
 
 ❗ Input number in international format (example: +1234567890)    
 
 ```
-python D:\teleinviter\main.py +639162995600
+python D:\teleinviter\teleinv.py +639162995600
 ```
 
 ⚠️ Make sure you enter your phone number which linked with telegram. Do not enter the number listed in the example.    
-* You can just double click on **start.py** and it will ask any requirements later such as phone number and username_file.
+* You can just double click on **teleinv.py** and it will ask any requirements later such as phone number and username_file.
 * You can also run it by specifying required arguments as example below.
 * Input number in international format (example: +60123456789)
 * Username file can be either **.txt** or **.csv**  
@@ -106,15 +106,15 @@ python D:\teleinviter\main.py +639162995600
 > ##  Windows
 * Open cmd (command prompt)
 * Enter following command :
-`python ../your_path/start.py +123456789 username.txt`
+`python ../your_path/teleinv.py +123456789 username.txt`
 #### Example:    
-`python D:\teleinviter\start.py +123456789 username.txt`
+`python D:\teleinviter\teleinv.py +123456789 username.txt`
 > ## Termux
 * Enter following command :
 `cd ../your_path/`  
-`python ../your_path/start.py +123456789 username.txt`
+`python ../your_path/teleinv.py +123456789 username.txt`
 #### Example:
-`python D:\teleinviter\start.py +123456789 username.txt`
+`python D:\teleinviter\teleinv.py +123456789 username.txt`
 ## Bugs and Issues
 
 Have a bug or an issue with this script? [Open a new issue](https://github.com/ziziwho/teleinviter/issues/new) here on GitHub or leave a message on my [telegram](http://t.me/ziziwho).

@@ -105,12 +105,12 @@ python D:\teleinviter\teleinv.py +639162995600
 `../your_path/` mean path/directory/location to your TeleInviter file.
 > ##  Windows
 * Open cmd (command prompt)
-* Enter following command :
+* Enter following command :    
 `python ../your_path/teleinv.py +123456789 username.txt`
 #### Example:    
 `python D:\teleinviter\teleinv.py +123456789 username.txt`
 > ## Termux
-* Enter following command :
+* Enter following command :    
 `cd ../your_path/`  
 `python ../your_path/teleinv.py +123456789 username.txt`
 #### Example:

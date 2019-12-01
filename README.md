@@ -34,7 +34,7 @@ If you don't download the script yet get it now by clicking [/releases](https://
 `cd /d ../your_path/`    
 `pip install -r requirements.txt`    
 #### Example:
-`cd D:\teleinviter`  
+`cd /d D:\teleinviter`  
 `pip install -r requirements.txt`
 
 ## Install Python on Termux

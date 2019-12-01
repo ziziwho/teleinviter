@@ -31,7 +31,7 @@ If you don't download the script yet get it now by clicking [/releases](https://
 * When you're installing python made sure you checked "Add Python 3.7 to PATH"
 * `../your_path/` mean path/directory/location to your TeleInviter file.
 * Open Windows's command prompt and enter command below:    
-`cd ../your_path/`    
+`cd /d ../your_path/`    
 `pip install -r requirements.txt`    
 #### Example:
 `cd D:\teleinviter`  

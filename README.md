@@ -25,6 +25,9 @@ and Termux terminal on Android.
 Script is where the magic begins. Go ahead and download it now.    
 If you don't download the script yet get it now by clicking [/releases](https://github.com/ziziwho/teleinviter/releases)
 # Intallation
+Check out! Video tutorial :    
+[![Window Installation Video](https://img.youtube.com/vi/2leqESqYuis/0.jpg)](https://www.youtube.com/watch?v=2leqESqYuis)    
+
 ## Install Python on Windows
 
 * Download [Python](https://www.python.org/downloads/) for Windows

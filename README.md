@@ -26,7 +26,7 @@ Script is where the magic begins. Go ahead and download it now.
 If you don't download the script yet get it now by clicking [/releases](https://github.com/ziziwho/teleinviter/releases)
 # Intallation
 Check out! Video tutorial :    
-[![Window Installation Video](https://img.youtube.com/vi/2leqESqYuis/0.jpg)](https://www.youtube.com/watch?v=2leqESqYuis)    
+[![Window Installation Video](https://img.youtube.com/vi/2leqESqYuis/0.jpg)](https://www.youtube.com/channel/UCW36UNroi3B4Ix9ln1e6rUQ?sub_confirmation=1)    
 
 ## Install Python on Windows
 
